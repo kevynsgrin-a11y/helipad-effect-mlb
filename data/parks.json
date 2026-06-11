@@ -1,0 +1,38 @@
+[
+  {
+    "id": "ANA",
+    "name": "Angel Stadium of Anaheim",
+    "orientation": 43,
+    "baselineFactor": 0.97,
+    "windSensitivity": 0.3,
+    "altitude": 160,
+    "roof": "open"
+  },
+  {
+    "id": "COL",
+    "name": "Coors Field",
+    "orientation": 45,
+    "baselineFactor": 1.35,
+    "windSensitivity": 0.4,
+    "altitude": 5200,
+    "roof": "open"
+  },
+  {
+    "id": "HOU",
+    "name": "Minute Maid Park",
+    "orientation": 23,
+    "baselineFactor": 0.95,
+    "windSensitivity": 0.25,
+    "altitude": 55,
+    "roof": "retractable"
+  },
+  {
+    "id": "ARI",
+    "name": "Chase Field",
+    "orientation": 45,
+    "baselineFactor": 0.9,
+    "windSensitivity": 0.2,
+    "altitude": 1080,
+    "roof": "retractable"
+  }
+]
