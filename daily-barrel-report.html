@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Daily barrel report combining weather physics, park factors and simple models to highlight hitter‑friendly game environments." />
+    <title>Daily Barrel Report – Helipad Effect MLB</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Daily Barrel Report</h1>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="methodology.html">Methodology</a>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <p>
+          This demonstration report uses a heuristic model to combine air density,
+          wind direction, ballpark factors and pitcher stress to produce a
+          Helipad Index for each MLB park. Values range from 0 (very
+          pitcher‑friendly) to 100 (very hitter‑friendly). Letter grades
+          translate the index into simple categories. In a production
+          environment the conditions would be pulled from live weather data
+          and game schedules rather than randomised samples.
+        </p>
+      </section>
+      <section>
+        <table>
+          <thead>
+            <tr>
+              <th>Park</th>
+              <th>Temp (\u00b0F)</th>
+              <th>RH (%)</th>
+              <th>Pressure (hPa)</th>
+              <th>Wind (mph)</th>
+              <th>Wind Dir (\u00b0)</th>
+              <th>Helipad Index</th>
+              <th>Grade</th>
+            </tr>
+          </thead>
+          <tbody id="report-table-body">
+            <!-- Rows will be inserted here by app.js -->
+          </tbody>
+        </table>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2026 Helipad Effect MLB</p>
+    </footer>
+    <script src="assets/js/helipad-model.js"></script>
+    <script src="assets/js/app.js"></script>
+  </body>
+</html>
