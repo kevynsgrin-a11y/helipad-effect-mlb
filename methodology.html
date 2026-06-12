@@ -13,24 +13,34 @@
       <h1>Methodology</h1>
       <nav>
         <a href="index.html">Home</a>
-        <a href="daily-report-template.html">Report Template</a>
+        <a href="daily-barrel-report.html">Daily Report</a>
       </nav>
     </header>
     <main>
       <section>
         <h2>Methodology Overview</h2>
         <p>
-          This page explains how we calculate Helipad Grades and long‑ball environment
-          rankings. Our model incorporates factors such as ballpark dimensions,
-          wind speed and direction, temperature, humidity, roof status and
-          pitcher handedness. We focus on variables that have measurable impact
-          on ball flight and run production.
+          This page explains the thinking behind our Helipad Index and long‑ball
+          environment grades. The index synthesises key physical variables —
+          air density, wind direction and magnitude, park orientation and
+          dimensions, roof status and estimated pitcher stress — into a
+          single 0‑100 score that rates how favourable conditions are for
+          hitters. A higher score implies a more hitter‑friendly environment.
         </p>
         <p>
-          Each component is weighted based on its empirical influence on batted
-          balls. The resulting grade ranges from A (most hitter friendly) to
-          F (least hitter friendly). Grades are recalculated for each game
-          using forecasted conditions and public data.
+          At this stage the model uses heuristic weightings inspired by
+          published research. Air density is derived from temperature,
+          humidity and barometric pressure; wind direction is resolved
+          relative to centre field; and each park’s baseline run factor and
+          sensitivity to wind modify the result. You can find a technical
+          overview in the <a href="docs/MODEL_NOTES.md">Model Notes</a>.
+        </p>
+        <p>
+          Future iterations will incorporate statistically trained coefficients
+          using historical game data and will account for humidor era
+          adjustments, pitcher and lineup tendencies and rolling season
+          validation. See the <a href="docs/ROADMAP.md">roadmap</a> for
+          more details.
         </p>
       </section>
       <section>
